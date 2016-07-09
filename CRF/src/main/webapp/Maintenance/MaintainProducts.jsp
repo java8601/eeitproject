@@ -106,49 +106,49 @@ body {
 	
 <!-- 新增活動 開始-->
 <%-- 		<form  name="member" class="form-login" action="${this_contextPath}/CRF/member.action" method="post" > --%>
-<!--         	<div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="products_tbody" class="modal fade"> -->
-<!--             	<div class="modal-dialog"> -->
-<!--                 	<div class="modal-content"> -->
-<!--                     <div class="modal-header login_header"> -->
-<!--                     	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button> -->
-<!--                         <h3 class="modal-title">新增產品</h3> -->
-<!--                     </div> -->
+        	<div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="products_tbody" class="modal fade">
+            	<div class="modal-dialog">
+                	<div class="modal-content">
+                    <div class="modal-header login_header">
+                    	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h3 class="modal-title">新增產品</h3>
+                    </div>
                             
-<!--                     <div id="addActivitys_form" class="modal-body"> -->
-<!--                     <div id='fine-uploader-manual-trigger'></div> -->
-<%--             	        <p>產品名稱&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span style="color:red">${ErrorMessage.nickname_error}</span></p> --%>
-<!--                         <input required="required" type="text" id="insert_Name" autocomplete="off" class="form-control" placeholder="產品名稱" />                                                 -->
-<!--                         <p>產品顏色&nbsp&nbsp&nbsp&nbsp&nbsp<span style="color:red"></span></p> -->
-<!--                    		<input required="required" type="text" id="insert_color" autocomplete="off" class="form-control" placeholder="產品顏色" /> -->
-<!--                         <p>產品大小&nbsp&nbsp&nbsp&nbsp&nbsp<span style="color:red" ></span></p> -->
-<!--                         <select id="insert_size" name="test1" class="form-control" > -->
-<!-- 							<option value="1">XS</option> -->
-<!-- 							<option value="2">S</option> -->
-<!-- 							<option value="3">M</option> -->
-<!-- 							<option value="4">L</option> -->
-<!-- 							<option value="5">XL</option> -->
-<!-- 							<option value="6">2XL</option> -->
-<!-- 							<option value="7">3XL</option> -->
-<!-- 							<option value="8">U</option> -->
-<!-- 						</select> -->
-<!--                         <p>產品數量&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span style="color:red">}</span></p> -->
-<!--                         <input required="required" type="text" id="insert_stock" class="form-control" autocomplete="off" placeholder="產品數量"/> -->
-<!--                         <p>產品價格&nbsp&nbsp&nbsp<span style="color:red"></span></p> -->
-<!--                         <input required="required" type="text" id="insert_price" class="form-control" autocomplete="off" placeholder="產品價格" /> -->
-<!--                         <p>產品分類&nbsp&nbsp&nbsp<span style="color:red"></span></p> -->
-<!--                         <input required="required" type="text" id="insert_category" class="form-control" autocomplete="off" placeholder="產品分類" /> -->
-<!--                         <p>產品簡介&nbsp&nbsp&nbsp<span style="color:red"></span></p> -->
-<!--                         <input required="required" type="text" id="insert_introduction" class="form-control" autocomplete="off" placeholder="產品簡介" /> -->
+                    <div id="addActivitys_form" class="modal-body">
+                    <div id='fine-uploader-manual-trigger'></div>
+            	        <p>產品名稱&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span style="color:red">${ErrorMessage.nickname_error}</span></p>
+                        <input required="required" type="text" id="insert_Name" autocomplete="off" class="form-control" placeholder="產品名稱" />                                                
+                        <p>產品顏色&nbsp&nbsp&nbsp&nbsp&nbsp<span style="color:red"></span></p>
+                   		<input required="required" type="text" id="insert_color" autocomplete="off" class="form-control" placeholder="產品顏色" />
+                        <p>產品大小&nbsp&nbsp&nbsp&nbsp&nbsp<span style="color:red" ></span></p>
+                        <select id="insert_size" name="test1" class="form-control" >
+							<option value="1">XS</option>
+							<option value="2">S</option>
+							<option value="3">M</option>
+							<option value="4">L</option>
+							<option value="5">XL</option>
+							<option value="6">2XL</option>
+							<option value="7">3XL</option>
+							<option value="8">U</option>
+						</select>
+                        <p>產品數量&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span style="color:red">}</span></p>
+                        <input required="required" type="text" id="insert_stock" class="form-control" autocomplete="off" placeholder="產品數量"/>
+                        <p>產品價格&nbsp&nbsp&nbsp<span style="color:red"></span></p>
+                        <input required="required" type="text" id="insert_price" class="form-control" autocomplete="off" placeholder="產品價格" />
+                        <p>產品分類&nbsp&nbsp&nbsp<span style="color:red"></span></p>
+                        <input required="required" type="text" id="insert_category" class="form-control" autocomplete="off" placeholder="產品分類" />
+                        <p>產品簡介&nbsp&nbsp&nbsp<span style="color:red"></span></p>
+                        <input required="required" type="text" id="insert_introduction" class="form-control" autocomplete="off" placeholder="產品簡介" />
                             
-<!--                      </div> end of id="addActivitys_form" class="modal-body" -->
-<!--                      <div class="modal-footer"> -->
-<%-- <%--                      	<h4 style="color:red;float:left" >${ErrorMessage.registered_error}</h4> --%> --%>
-<!--                         <button data-dismiss="modal" class="btn btn-default" type="button">取消</button> -->
-<!--                         <button id="addActivitys" class="btn btn-theme" type="button" value="INSERT_MEMBER">送出</button>                        -->
-<!--                      </div> -->
-<!--                      </div> -->
-<!--                   </div> -->
-<!--             </div> -->
+                     </div> end of id="addActivitys_form" class="modal-body"
+                     <div class="modal-footer">
+<%--                      	<h4 style="color:red;float:left" >${ErrorMessage.registered_error}</h4> --%>
+                        <button data-dismiss="modal" class="btn btn-default" type="button">取消</button>
+                        <button id="addActivitys" class="btn btn-theme" type="button" value="INSERT_MEMBER">送出</button>                       
+                     </div>
+                     </div>
+                  </div>
+            </div>
 <!-- 		</form> -->
 <!-- 新增活動 結束-->		
 				
